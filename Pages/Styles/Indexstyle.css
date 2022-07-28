@@ -1,8 +1,8 @@
-/*index zone*/
+/*index*/
 html{
     font-family: "Verdana";
 }
-h1{
+.hindex{
     color: white;
     display: inline-block;
     text-align: left;
@@ -45,9 +45,14 @@ h1{
 .barra ul{
 padding-top: 50px;
 }
+h1{
+    color: white;
+    text-align: left;
+    margin: 0px;
+}
 
 
-/* Portfolio zone */
+/* Portfolio*/
 .galeria{
     margin-top: 100px;
     margin-left: 100px;
@@ -138,7 +143,22 @@ padding-top: 50px;
         grid-row: 3/4;
     }
 }
-/* skills zone*/
+
+/*personal information*/
+
+.informacionpersonal{
+    margin-top: 250px;
+}
+
+
+
+
+/* skills */
+
+.lorem1{
+    color: aliceblue;
+    width: 500px;
+}
 
 
 
@@ -146,9 +166,15 @@ padding-top: 50px;
 
 
 
+/*social*/
 
 
-/* social networks zone*/
+.rbarra{
+    display: flex;
+    margin-top: 150px;
+    font-size: 22px;
+
+}
 
 
 
@@ -156,5 +182,4 @@ padding-top: 50px;
 
 
 
-
-/* contact zone */
+/* contact*/
