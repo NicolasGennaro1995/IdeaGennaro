@@ -1,8 +1,9 @@
 /*index*/
-html{
+html {
     font-family: "Verdana";
 }
-.hindex{
+
+.hindex {
     color: white;
     display: inline-block;
     text-align: left;
@@ -10,11 +11,13 @@ html{
     position: absolute;
     top: 30%;
 }
-.logocontainer{
-    height:170px;
+
+.logocontainer {
+    height: 170px;
     position: relative;
 }
-.content{
+
+.content {
     background-image: url(/Pages/img/Background.png);
     background-attachment: fixed;
     background-size: cover;
@@ -24,11 +27,13 @@ html{
     padding: 0;
     margin: 0;
 }
-.logo{
-    display:inline-block;
-    width: 150px
+
+.logo {
+    display: inline-block;
+    width: 150px;
 }
-.barra ul li a{
+
+.barra ul li a {
     text-decoration: none;
     color: white;
     display: flex;
@@ -37,23 +42,25 @@ html{
     width: 50px;
     margin-bottom: 90px;
 }
-.barra ul li :hover{
+
+.barra ul li :hover {
     list-style-type: none;
-    transform: scale(1.10);
+    transform: scale(1.1);
     transition: all 1s;
 }
-.barra ul{
-padding-top: 50px;
+
+.barra ul {
+    padding-top: 50px;
 }
-h1{
+
+h1 {
     color: white;
     text-align: left;
     margin: 0px;
 }
 
-
 /* Portfolio*/
-.galeria{
+.galeria {
     margin-top: 100px;
     margin-left: 100px;
     width: 1000px;
@@ -64,29 +71,34 @@ h1{
     box-sizing: border-box;
     gap: 10px;
 }
-.item{
+
+.item {
     border: 2px solid #000;
     border-radius: 20px;
 }
-.item:hover{
+
+.item:hover {
     transform: scale(1.03);
     transition: all 1s;
 }
-.item1{
+
+.item1 {
     grid-column: 1/2;
     grid-row: 1/4;
     background-image: url(/Pages/img/indumentaria.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.item2{
+
+.item2 {
     grid-column: 2/3;
     grid-row: 1/2;
     background-image: url(/Pages/img/libros.jpg);
     background-size: cover;
     background-position: center;
 }
-.item3{
+
+.item3 {
     grid-column: 3/5;
     grid-row: 1/2;
     background-image: url(/Pages/img/Empresa.jpg);
@@ -94,14 +106,16 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
 }
-.item4{
+
+.item4 {
     grid-column: 2/3;
     grid-row: 2/4;
     background-image: url(/Pages/img/setup.jpg);
     background-position: center;
     background-size: cover;
 }
-.item5{
+
+.item5 {
     grid-column: 3/5;
     grid-row: 2/3;
     background-image: url(/Pages/img/musica.jpg);
@@ -109,7 +123,8 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.item6{
+
+.item6 {
     grid-column: 3/5;
     grid-row: 3/4;
     background-image: url(/Pages/img/muebles.jpg);
@@ -117,69 +132,56 @@ h1{
     background-position: center;
 }
 
-@media only screen and (min-width:600px) and (max-width:1024px){
-    .item1{
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .item1 {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    .item2{
+
+    .item2 {
         grid-column: 2/3;
         grid-row: 1/2;
     }
-    .item3{
+
+    .item3 {
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    .item4{
+
+    .item4 {
         grid-column: 2/3;
         grid-row: 2/3;
     }
-    .item5{
+
+    .item5 {
         grid-column: 1/2;
         grid-row: 3/4;
     }
-    .item6{
+
+    .item6 {
         grid-column: 2/3;
         grid-row: 3/4;
     }
 }
 
 /*personal information*/
-
-.informacionpersonal{
+.informacionpersonal {
     margin-top: 250px;
 }
 
-
-
-
 /* skills */
-
-.lorem1{
+.lorem1 {
     color: aliceblue;
     width: 500px;
 }
 
-
-
-
-
-
-
 /*social*/
-
-
-.rbarra{
+.rbarra {
     display: flex;
     margin-top: 150px;
     font-size: 22px;
-
 }
 
-
-
-
-
-
-
 /* contact*/
+
+/*# sourceMappingURL=Indexstyle.css.map */
