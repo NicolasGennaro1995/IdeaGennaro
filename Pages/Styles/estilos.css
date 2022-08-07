@@ -1,0 +1,130 @@
+/*index*/
+html {
+  font-family: "Verdana";
+}
+
+.hindex {
+  color: white;
+  display: inline-block;
+  text-align: left;
+  margin: 0px;
+  position: absolute;
+  top: 30%;
+}
+
+.logocontainer {
+  height: 170px;
+  position: relative;
+}
+
+.content {
+  background-image: url(/Pages/img/Background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 100px);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  display: inline-block;
+  width: 150px;
+}
+
+.barra ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin-top: 15px;
+  font-size: 22px;
+  width: 50px;
+  margin-bottom: 90px;
+}
+
+.barra ul li :hover {
+  list-style-type: none;
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.barra ul {
+  padding-top: 50px;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  margin: 0px;
+}
+
+/* Portfolio*/
+
+.itemres {
+  border: 2px solid #000;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.itemres:hover {
+  transform: scale(1.03);
+  transition: all 1s;
+}
+
+.item1res {
+  background-image: url(/Pages/img/indumentaria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item2res {
+  background-image: url(/Pages/img/libros.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item3res {
+  background-image: url(/Pages/img/Empresa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item4res {
+  background-image: url(/Pages/img/setup.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.item5res {
+  background-image: url(/Pages/img/musica.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item6res {
+  background-image: url(/Pages/img/muebles.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/*personal information*/
+.informacionpersonal {
+  margin-top: 250px;
+}
+
+/* skills */
+.lorem1 {
+  color: aliceblue;
+  width: 500px;
+}
+
+/*social*/
+.rbarra {
+  display: flex;
+  margin-top: 150px;
+  font-size: 22px;
+}
+
+/* contact*/
