@@ -167,3 +167,19 @@ $redes: (
 }
 
 /* contact*/
+
+
+
+
+
+
+
+
+/* mixin a modo de practica*/
+@mixin sizes($width,$height) {
+    height: $height;
+    width: $width;
+}
+.box{
+    @include sizes(500px,50px )
+}

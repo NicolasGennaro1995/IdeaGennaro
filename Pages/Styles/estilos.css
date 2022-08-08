@@ -176,4 +176,9 @@ h1 {
   color: #0076b8;
 }
 
-/* contact*//*# sourceMappingURL=estilos.css.map */
+/* contact*/
+/* mixin a modo de practica*/
+.box {
+  height: 50px;
+  width: 500px;
+}/*# sourceMappingURL=estilos.css.map */
