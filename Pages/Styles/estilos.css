@@ -59,6 +59,12 @@ h1 {
   margin: 0px;
 }
 
+.social {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 /* Portfolio*/
 .itemres {
   border: 2px solid #000;
@@ -125,7 +131,6 @@ h1 {
   display: flex;
   font-size: 30px;
   margin-top: 100px;
-  text-decoration: none;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;

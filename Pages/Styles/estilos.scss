@@ -58,7 +58,9 @@ h1 {
     text-align: left;
     margin: 0px;
 }
-
+.social{
+    width: max-content;
+}
 
 /* Portfolio*/
 
@@ -144,7 +146,6 @@ h1 {
     display: flex;
     font-size: 30px;
     margin-top: 100px;
-    text-decoration: none;
     max-width: fit-content;
 }
 $redes: (
