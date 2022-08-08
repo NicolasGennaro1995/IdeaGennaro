@@ -62,18 +62,6 @@ h1 {
 
 /* Portfolio*/
 
-/*.galeria {
-    margin-top: 100px;
-    margin-left: 100px;
-    width: 1000px;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 200px 200px 200px;
-    box-sizing: border-box;
-    gap: 10px;
-}*/
-
 .itemres {
     border: 2px solid #000;
     border-radius: 20px;
@@ -152,16 +140,29 @@ h1 {
 
 /*social*/
 
-
-.rbarra {
+.rbarra ul li a{
     display: flex;
-    margin-top: 150px;
-    font-size: 22px;
-
+    font-size: 30px;
+    margin-top: 100px;
+    text-decoration: none;
+    max-width: fit-content;
 }
-
-
-
-
+$redes: (
+	twitter: #51aff8,
+	facebook: #2956a3,
+    instagram: pink,
+	linkedin: #0076b8,
+);
+@each $red, $color in $redes {
+    .redes--#{$red} {
+        background: $color;
+        &:hover {
+            background: white;
+            .red__nombre {
+                color: $color;
+            }
+        }
+    }
+}
 
 /* contact*/

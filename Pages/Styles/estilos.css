@@ -60,7 +60,6 @@ h1 {
 }
 
 /* Portfolio*/
-
 .itemres {
   border: 2px solid #000;
   border-radius: 20px;
@@ -109,6 +108,7 @@ h1 {
   background-size: cover;
   background-position: center;
 }
+
 /*personal information*/
 .informacionpersonal {
   margin-top: 250px;
@@ -121,10 +121,54 @@ h1 {
 }
 
 /*social*/
-.rbarra {
+.rbarra ul li a {
   display: flex;
-  margin-top: 150px;
-  font-size: 22px;
+  font-size: 30px;
+  margin-top: 100px;
+  text-decoration: none;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
-/* contact*/
+.redes--twitter {
+  background: #51aff8;
+}
+.redes--twitter:hover {
+  background: white;
+}
+.redes--twitter:hover .red__nombre {
+  color: #51aff8;
+}
+
+.redes--facebook {
+  background: #2956a3;
+}
+.redes--facebook:hover {
+  background: white;
+}
+.redes--facebook:hover .red__nombre {
+  color: #2956a3;
+}
+
+.redes--instagram {
+  background: pink;
+}
+.redes--instagram:hover {
+  background: white;
+}
+.redes--instagram:hover .red__nombre {
+  color: pink;
+}
+
+.redes--linkedin {
+  background: #0076b8;
+}
+.redes--linkedin:hover {
+  background: white;
+}
+.redes--linkedin:hover .red__nombre {
+  color: #0076b8;
+}
+
+/* contact*//*# sourceMappingURL=estilos.css.map */
